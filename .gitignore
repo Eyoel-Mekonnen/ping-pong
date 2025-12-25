@@ -2,6 +2,7 @@
 /target/
 **/*.rs.bk
 *.pdb
+Cargo.lock  # Add this if it's a binary/application (optional for libraries)
 
 # OS files
 .DS_Store
@@ -12,4 +13,8 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+*~
+
+# Backup files
+*.bak
 *~
